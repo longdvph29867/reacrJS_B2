@@ -1,0 +1,36 @@
+.body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../../public/glassesImage/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* filter: grayscale(50%) contrast(50%); */
+}
+.body > div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model_container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.glasses_list > div {
+    margin-bottom: 12px;
+
+}
+.glasses_item {
+    border: 1px solid gray;
+    padding: 10px;
+    cursor: pointer;
+}
+.glasses_item img {
+    width: 100%;
+}

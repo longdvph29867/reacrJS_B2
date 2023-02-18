@@ -1,0 +1,44 @@
+.model {
+    width: 300px;
+    margin-top: 20px;
+    position: relative;
+}
+.model img {
+    width: 100%;
+}
+.glasses_img {
+    position: absolute;
+    top: 86px;
+    left: 52px;
+    width: 200px;
+}
+.glasses_info {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    background-color: rgba( 0, 0, 0, .7);
+}
+.glasses_info p:nth-child(1) span {
+    color: rgb(225, 225, 0);
+    font-size: 18px;
+    font-weight: bold;
+}
+.glasses_info p {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.glasses_info p:nth-child(2) span {
+    color: rgb(0, 148, 0);
+    font-size: 18px;
+    font-weight: bold;
+}
+.model_left .glasses_info,
+.model_left .glasses_img {
+    display: none;
+}
+
